@@ -1,0 +1,16 @@
+Horodinca Rares Project
+
+I have made a project which uses 3 forms created in swing ui.
+Registration Form:
+-It has 5 fields(first name,last name,phone,favourite footballer and password)
+-Once you enter those and confirm your password,the information will be introduced in a MySql database called MyStore,table users.
+-if it is succesfull it will print successful registration,it will will print succesfull registration of...,if not it will print registration cancelled.
+-it will also let you know if the password and the confrim password fields do not match
+Login Form:
+-it asks you to introduce the phone and the password of the user
+-if it is correct it leads you to the dashboard
+-if it is not it informs you that the password or the phone number you provided is wrong.
+-it takes the information from the users table
+Dashboard Form:
+-you reach this form after introducing correct data in the login form.
+-It says hello to the user and gives him the posibility to enter a new user by opening anew registration form.
